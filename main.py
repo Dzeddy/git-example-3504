@@ -22,7 +22,7 @@ for student in students:
 
     if score >= 90:
         grade = "A"
-    if score >= 80:
+    elif score >= 80:
         grade = "B"
     elif score >= 70:
         grade = "C"
